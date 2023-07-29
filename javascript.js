@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         div.className = "items"
         container.appendChild(div)
         div.addEventListener("mouseenter", () => {
-            div.style.backgroundColor = "blue"
+            div.style.backgroundColor = changeColor()
 
             
 
@@ -16,3 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+
+function changeColor() {
+    const colorPicker = document.querySelector("#colorPicker");
+    const box = document.querySelector("#box")
+    box.style.backgroundColor = colorPicker.value
+    return colorPicker.value;
+}
