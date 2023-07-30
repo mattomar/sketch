@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,25 @@
     <script src="javascript.js" defer></script>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-    <div id="container"></div>
-    <div>
-        <input type="color" id="colorPicker">
+    <h1>Etch-a-Sketch
+    </h1>
+    <div class="cssContainer">
+        <div class="colors">
+            <div>
+                <input type="color" id="colorPicker">
+            </div>
+
+            <div>
+                <input type="range" id="gridSizeSlider" min="16" max="100" step="1">
+                <span id="gridSizeValue"></span>
+            </div>
+            <div id="box"></div>
+        </div>
+        <div id="container"></div>
+
     </div>
-    <div id="box"></div>
 </body>
+
 </html>
