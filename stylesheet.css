@@ -1,11 +1,11 @@
 #container {
     display: flex;
     flex-wrap: wrap;
-    background-color: aliceblue;
+    background-color: #F6F1E9;
     width: 400px;
     height: 400px;
     overflow: hidden;
-    margin-left: 200px;
+    margin-left: 55px;
     flex-shrink: 0;
     flex-grow: 0;
 }
@@ -19,33 +19,31 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #EAC696;
 }
 
-#box {
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    display: flex;
-    margin-right: 25px;
-}
+
 
 #colorPicker{
     display: flex;
     margin-right: 20px;
+    margin-top: 5px;
+}
+
+#gridSizeSlider {
+    margin-left: 30px;
+    margin-top: 7px;
 }
 
 h1{
     text-align: center;
     font-size: 36;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-family: 'edu-bold', sans-serif;
+    color: #65451F;
 }
 
 .cssContainer{
     display: flex;
-    border: 5px solid red;
 }
 
 
@@ -55,6 +53,24 @@ h1{
     justify-content:  center;
     padding-left: 20px;
     align-items: center;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+
+
+.descreption, .descreption2{
+    color: #65451F;
+    font-family: 'edu-bold', sans-serif;
+}
+
+@font-face {
+    font-family: edu-var;
+    src: url("Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: edu-bold;
+    src: url(Edu_SA_Beginner/static/EduSABeginner-Bold.ttf);
 }
 
 

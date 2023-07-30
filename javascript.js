@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let gridSize=16
+    let gridSize=58
     const gridSizeSlider = document.querySelector("#gridSizeSlider")
     const gridSizeValue = document.querySelector("#gridSizeValue")
     const container = document.querySelector("#container")
@@ -34,8 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function changeColor() {
     const colorPicker = document.querySelector("#colorPicker");
-    const box = document.querySelector("#box")
-    box.style.backgroundColor = colorPicker.value
     return colorPicker.value;
 }
 
